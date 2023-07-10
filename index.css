@@ -1,4 +1,5 @@
 @import url("./font.css");
+@import url("./container3.css");
 body{
     background-color: #F0E9DF;
     margin:0;
@@ -10,6 +11,12 @@ li{
 }
 a{
     text-decoration: none;
+    color:#543939;
+    margin:0;
+}
+
+h4{
+    color:#543939;
 }
 .menu{
     width:100%;
@@ -18,8 +25,11 @@ a{
     align-items: center;  
     position:flxed;
     z-index: 9999;
+    background-color: rgba(84,57,57,.25);
+    backdrop-filter: blur(25px);
 }
 
+@media screen and (min-width:)
 .container1{
     background-color: #5d9060;
     position:absolute;
@@ -81,28 +91,28 @@ a{
     margin-left: 30px;  
     margin-top: 0px;
     width:60%;
-    background-color:aqua;
+    height:700px;
+    position:relative;
 }
 
 .container2 > .box1 > .font{
     width:auto;
     height:160px;
     margin-top: 0px;
-    background-color: yellow;
 }
 
-.container2 > .box1 > .font > h2{
+.container2 > .box1 > .main > h2{
     color:#543939;
     font-size: 40px;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
-    line-height: 1.1;
 }
 
 .container2 > .box1 > .section{
     display:flex;
-    background-color: blue;
-    margin-top:250px;
+    position:absolute;
+    justify-content: center;
+    bottom:0px;
 }
 
 .container2 > .box1 > .section > img{
@@ -125,7 +135,6 @@ a{
 
 .container2 > .box1 > .section > .sentence > p{
    grid-area: bottom;
-   margin-bottom: 0px;
 }
 
 .container2 > .box2{
@@ -144,7 +153,38 @@ a{
     background-color: #F0E9DF;
     width:100%;
     height:2000px;
+    margin-left: 30px;
 }
+
+.container3 > .box1 {
+    width:60%;
+}
+
+.container3 > .box1 > h2{
+    color:#543939;
+    font-size: 65px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 0.8;
+    margin-top: 30px;
+    margin-bottom: 15px;;
+}
+
+.container3 > .box1 > .link > a:last-child{
+    border-bottom: 1px dashed #543939;
+
+}
+
+.container3 > .box2 {
+    position:absolute;
+    display: flex;
+    margin:50px 50px;
+}
+
+.container3 > .box2 > article > img{
+    background-color: red;
+    width: 30%;
+}
+
 .container4{
     background-color: #b1956d;
     width:100%;
