@@ -1,0 +1,85 @@
+@import url("./font.css");
+
+@import url("./header.css");
+@import url("./section2.css");
+@import url("./section3.css");
+
+
+body{
+    margin:0;
+    padding:0;
+}
+
+li{
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+    color:#543939;
+    margin:0;
+}
+
+h4{
+    color:#543939;
+}
+
+main{
+    width:100vw;
+    height:100vh;
+}
+
+main > .section1{
+    background-color: #5d9060;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* .container3 > .box1 {
+    width:60%;
+}
+
+.container3 > .box1 > h2{
+    color:#543939;
+    font-size: 65px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 0.8;
+    margin-top: 30px;
+    margin-bottom: 15px;;
+}
+
+.container3 > .box1 > .link > a:last-child{
+    border-bottom: 1px dashed #543939;
+
+}
+
+.container3 > .box2 {
+    position:absolute;
+    display: flex;
+    margin:50px 50px;
+}
+
+.container3 > .box2 > article > img{
+    background-color: red;
+    width: 30%;
+}
+
+.container4{
+    background-color: #b1956d;
+    width:100%;
+    height:1000px;
+
+}
+.container5{
+    background-color: #F0E9DF;
+    width:100%;
+    height:1500px;
+}
+.container6{
+    background-color: #543939;
+    width:100%;
+    height:1000px;
+} */
