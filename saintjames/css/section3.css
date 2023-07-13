@@ -2,7 +2,7 @@ main > .section3{
     position: relative;
     width: 100vw;
     height: 2500px;
-    background-color: red;
+    background-color: #F0E9DF;
     padding: 100px 30px 30px 30px;
     box-sizing: border-box;
     display:grid;
