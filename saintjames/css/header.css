@@ -4,10 +4,10 @@ header{
     top:0;
     align-items: center;
     width:100%;
-    height: 78px;
+    height: 100px;
     z-index: 9999;
-    /* background-color: rgba(84,57,57,.25);
-    backdrop-filter: blur(25px); */
+    background-color: rgba(84,57,57,.25);
+    backdrop-filter: blur(25px);
 }
 
 header > .header1{
@@ -21,7 +21,8 @@ header > .header1 > ul{
 }
 
 header > .header1 > ul > li{
-    margin-right: 20px;   
+    margin-right: 20px; 
+    font-size: 20px;  
 }
 
 header > .header1 > ul > li > a{
@@ -31,15 +32,16 @@ header > .header1 > a{
     display:flex;
     justify-content: center;
     align-items: center;
-    border:1px solid white;
+    border:2px solid white;
     border-radius: 5%;
     margin-right: 30px;
-    width:100px;
-    height:50px;
+    width:130px;
+    height:60px;
 }
 
 header > .header1 > a > h4{
     color: white;
+    font-size: 20px;
 }
 
 header > .header2 {

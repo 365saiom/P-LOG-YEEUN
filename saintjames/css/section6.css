@@ -29,6 +29,7 @@ main > .section6 > .article2{
     grid-row: 2/3;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-right: 50px;
     margin-left: 50px;
@@ -42,4 +43,41 @@ main > .section6 > .article2 > p:first-child{
     margin-bottom: 10px;
 }
 
+main > .section6 > .article2 > form{
+    border-bottom: 2px dashed white;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
 
+main > .section6 > .article2 > form > input{
+    border:none;
+    background: transparent;
+    font-size:18px;
+    margin-bottom: 5px;
+}
+
+main > .section6 > .article2 > form > button{
+    border:none;
+    background: transparent;
+    color:white;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+main > .section6 > .article7{
+    grid-column: 1/13;
+    grid-row: 3/5;
+    display:flex;
+    align-items: end;
+}
+/* 
+main > .section6 >.article7 > h1{
+    font-size: 350px;
+    margin:0;
+} */
+
+main > .section6 > .article7 > img{
+    width: 100%;
+}
