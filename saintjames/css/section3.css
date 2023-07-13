@@ -28,6 +28,7 @@ main > .section3 > .article1 > h2{
 
 
 main > .section3 > .article1 > .link > a{
+    color: #543939;
     font-size: 20px;
 }
 
