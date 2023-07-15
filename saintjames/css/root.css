@@ -1,0 +1,10 @@
+:root {
+    /* font */
+    --base-head: 40px;
+
+    --base-content: 15px;
+
+    --base-big: 64px;
+    /* color */
+    --base-brown: #543939;
+}

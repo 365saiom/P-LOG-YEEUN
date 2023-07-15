@@ -1,15 +1,15 @@
 main > .section3{
     position: relative;
     width: 100vw;
-    height: 2500px;
     background-color: #F0E9DF;
-    padding: 100px 30px 30px 30px;
+    padding: 100px 40px 100px 40px;
     box-sizing: border-box;
     display:grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 400px 1fr;
+    grid-template-rows: 200px 1fr;
     column-gap: 30px;
-    row-gap: 10px;
+    row-gap: 30px;
+    color: var(--base-brown);
 }
 
 main > .section3 > .article1{
@@ -18,18 +18,20 @@ main > .section3 > .article1{
 }
 
 main > .section3 > .article1 > h2{
-    color:#543939;
-    font-weight: 900;
-    font-size: 80px;
-    line-height: .8;
-    margin-bottom: 15px;
+    /* color: var(--base-brown); */
+    font-weight: 00;
+    font-size: var(--base-big);
+    line-height: .9;
+    margin-bottom: 10px;
     font-family: 'Russo One', sans-serif;
 }
 
 
 main > .section3 > .article1 > .link > a{
-    color: #543939;
-    font-size: 20px;
+    color: var(--base-brown);
+    font-size: var(--base-content);
+    font-weight: 600;
+    margin-bottom: 30px;
 }
 
 main > .section3 > .article1 > .link > a:last-child{
@@ -37,14 +39,15 @@ main > .section3 > .article1 > .link > a:last-child{
 }
 
 main > .section3 > .article2{
-    position: absolute;
+    position: relative;
     grid-column: 1/13;
     grid-row:2/3;
     display:grid;
     grid-template-rows: repeat(2,1fr);
     grid-template-columns: repeat(12,1fr);     
-    row-gap: 80px;
+    row-gap: 40px;
     column-gap: 30px;
+
 }
 
 main > .section3 > .article2 > .item:first-child{
@@ -73,16 +76,16 @@ main > .section3 > .article2 > .item:last-child{
 }
 
 main > .section3 > .article2 > .item > p{
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin-top: 13px;
+    margin-bottom: 3px;
     text-align: center;
-    font-size: 20px;
+    font-size: var(--base-content);
     font-weight: 600;
-    color: #543939;
+    /* color: var(--base-brown); */
 }
 
 main > .section3 > .article2 > .item > div{
     text-align: center;;
-    font-size: 18px;
-    color: #543939;
+    font-size: var(--base-content);
+    /* color: var(--base-brown); */
 }
