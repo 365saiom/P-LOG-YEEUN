@@ -72,6 +72,11 @@ main > .section4 > .article3 > .item2 > a{
     color: white;
 }
 
+
+main > .section4> .article3 > .item2 > a:hover{
+    opacity: .5;
+}
+
 main > .section4 > .article3 > .item2 > a:last-child{
     margin-left: 5px;
     border-bottom: 1px dashed white;

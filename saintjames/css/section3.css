@@ -4,26 +4,19 @@ main > .section3{
     background-color: #F0E9DF;
     padding: 100px 40px 100px 40px;
     box-sizing: border-box;
-    display:grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 200px 1fr;
-    column-gap: 30px;
-    row-gap: 30px;
+    display:flex;
+    flex-direction: column;
     color: var(--base-brown);
-}
-
-main > .section3 > .article1{
-    grid-column: 1/8;
-    grid-row:1/2;
 }
 
 main > .section3 > .article1 > h2{
     /* color: var(--base-brown); */
-    font-weight: 00;
+    font-weight: 600;
     font-size: var(--base-big);
     line-height: .9;
     margin-bottom: 10px;
     font-family: 'Russo One', sans-serif;
+    width: 50%;
 }
 
 
@@ -38,16 +31,19 @@ main > .section3 > .article1 > .link > a:last-child{
     border-bottom: 1px dashed #543939;
 }
 
+main > .section3 > .article1 > .link > a:hover{
+    opacity: .5;
+}
+
+
 main > .section3 > .article2{
     position: relative;
-    grid-column: 1/13;
-    grid-row:2/3;
     display:grid;
     grid-template-rows: repeat(2,1fr);
     grid-template-columns: repeat(12,1fr);     
     row-gap: 40px;
     column-gap: 30px;
-
+    padding-top: 50px;
 }
 
 main > .section3 > .article2 > .item:first-child{
