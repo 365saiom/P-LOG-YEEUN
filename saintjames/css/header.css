@@ -10,7 +10,7 @@ header{
     backdrop-filter: blur(25px); */
 }
 
-header > .header1{
+header > .header{
     width:100%;
     display: flex;
     justify-content: space-between;
@@ -19,28 +19,28 @@ header > .header1{
     padding-left: 30px;
 }
 
-header > .header1 > ul{
+header > .header > ul{
     display:flex;
     padding:0;
 }
 
-header > .header1 > ul > li{
+header > .header > ul > li{
     margin-right: 30px; 
     font-size: 15px;  
 }
 
-header > .header1 > .menu > li > a{
+header > .header > .menu > li > a{
     color: white;
 }
 
-header > .header1 > div > a:first-child{
+header > .header > div > a:first-child{
     color: white;
     font-size: 35px;
     margin-right: calc(50vh - 30px);
     
 }
 
-header > .header1 > a:last-child{
+header > .header > a:last-child{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -53,6 +53,10 @@ header > .header1 > a:last-child{
     font-weight: 500;
 }
 
-header > .header1 > ul > li > a:hover{
+header > .header > ul > li > a:hover{
     opacity: 0.5;
+}
+
+header > .header > a:hover{
+    scale: 1.05;
 }

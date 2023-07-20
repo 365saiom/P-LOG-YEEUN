@@ -46,6 +46,10 @@ main > .section3 > .article2{
     padding-top: 50px;
 }
 
+main > .section3 > .article2 > .item{
+    position: relative;
+}
+
 main > .section3 > .article2 > .item:first-child{
     grid-column: 5/9;
     grid-row: 1/2;
@@ -71,6 +75,9 @@ main > .section3 > .article2 > .item:last-child{
     grid-row: 2/3;
 }
 
+main > .section3 > .article2 > .item > p:first-child{
+    display: none;
+}
 main > .section3 > .article2 > .item > p{
     margin-top: 13px;
     margin-bottom: 3px;
@@ -84,4 +91,23 @@ main > .section3 > .article2 > .item > div{
     text-align: center;;
     font-size: var(--base-content);
     /* color: var(--base-brown); */
+}
+
+main > .section3 > .article2 > .item:hover img{
+    filter: blur(5px);
+    cursor: pointer;
+}
+
+main > .section3 > .article2 > .item:hover p:first-child{
+    display: block;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 120px;
+    z-index: 1;
+    border: 1px solid white;
+    border-radius: 10%;
+    color: white;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
 }
