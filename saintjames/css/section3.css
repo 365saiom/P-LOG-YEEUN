@@ -13,9 +13,9 @@ main > .section3 > .article1 > h2{
     /* color: var(--base-brown); */
     font-weight: 600;
     font-size: var(--base-big);
-    line-height: .9;
+    line-height: .8;
     margin-bottom: 10px;
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
     width: 50%;
 }
 
@@ -23,7 +23,6 @@ main > .section3 > .article1 > h2{
 main > .section3 > .article1 > .link > a{
     color: var(--base-brown);
     font-size: var(--base-content);
-    font-weight: 600;
     margin-bottom: 30px;
 }
 
@@ -83,13 +82,14 @@ main > .section3 > .article2 > .item > p{
     margin-bottom: 3px;
     text-align: center;
     font-size: var(--base-content);
-    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
     /* color: var(--base-brown); */
 }
 
 main > .section3 > .article2 > .item > div{
     text-align: center;;
     font-size: var(--base-content);
+    font-family: 'Noto Serif KR', serif;
     /* color: var(--base-brown); */
 }
 

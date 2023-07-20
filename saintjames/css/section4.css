@@ -2,7 +2,7 @@ main > .section4{
     position: relative;
     background-color: #b1956d;
     width:100%;
-    padding: 100px 40px 100px 40px;
+    padding: 100px 30px 100px 30px;
     box-sizing: border-box;
     display:grid;
     grid-template-columns: repeat(12,1fr);
@@ -17,16 +17,16 @@ main > .section4 > .article1{
     justify-content: center;
 }
 
-main > .section4 > .article1 h4{
+main > .section4 > .article1 p{
     font-size: var(--base-content);
-    font-weight: 500;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 main > .section4 > .article1 h2{
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: var(--base-big);
     line-height: .9;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 main > .section4 > .article2{
@@ -42,8 +42,8 @@ main > .section4 > .article3{
     grid-column: 9/13;
     display:grid;
     grid-template-rows: 1fr 300px 1fr;
-    grid-template-columns: 200px 1fr;
-    column-gap: 15px;
+    grid-template-columns: 220px 1fr;
+    column-gap: 10px;
     row-gap: 25px;
 }
 
@@ -53,9 +53,10 @@ main > .section4 > .article3 > .item1{
 }
 
 main > .section4 > .article3 > .item1 > p{
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 350;
-    line-height: 1.1;
+    line-height: 1.3;
+    font-family: 'Noto Serif KR', serif;
 }
 
 main > .section4 > .article3 > .item2{
@@ -70,6 +71,8 @@ main > .section4 > .article3 > .item2 > a{
     font-weight: 400;
     line-height: 1;
     color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 2px;
 }
 
 

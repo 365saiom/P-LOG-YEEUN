@@ -22,7 +22,7 @@ main > .section2 > .article1 > .item1 > h2{
     line-height: 1.1;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 0;;
+    margin-top: 0;
 }
 
 main > .section2 > .article1 > .item2{
@@ -43,14 +43,17 @@ main > .section2 > .article1 > .item2 > .minimal{
 }
 
 main > .section2 > .article1 > .item2 > .minimal > h4{
-    font-weight: 350;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
     font-size: var(--base-content);
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--base-content);
+    font-weight: 500;
 }
 
 main > .section2 > .article1 > .item2 > .minimal > p{
-    font-weight: 350;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: var(--base-content);
+    font-family: 'Noto Serif KR', serif;
 }
 
 main > .section2 > .article2{

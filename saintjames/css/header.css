@@ -25,19 +25,20 @@ header > .header > ul{
 }
 
 header > .header > ul > li{
-    margin-right: 30px; 
-    font-size: 15px;  
+    margin-right: 20px; 
 }
 
 header > .header > .menu > li > a{
     color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--base-content);  
 }
 
 header > .header > div > a:first-child{
     color: white;
-    font-size: 35px;
-    margin-right: calc(50vh - 30px);
-    
+    font-size: 38px;
+    margin-right: calc(50vh - 105px);
+    font-family: 'Abril Fatface', cursive;
 }
 
 header > .header > a:last-child{
@@ -47,10 +48,9 @@ header > .header > a:last-child{
     border: 1px solid white;
     border-radius: 5%;
     width: 100px;
-    height: 45px;
+    height: 50px;
     color: white;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: var(--base-content);
 }
 
 header > .header > ul > li > a:hover{

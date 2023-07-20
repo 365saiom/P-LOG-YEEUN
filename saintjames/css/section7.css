@@ -21,7 +21,8 @@ main > .section7 > .article1{
 main > .section7 > .article1 > a{
     color: white;
     font-size: var(--base-content);
-    margin-right: 20px;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main > .section7 > .article1 > a:hover{
@@ -47,22 +48,29 @@ main > .section7 > .article2 > p{
 
 main > .section7 > .article2 > p:first-child{
     margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
+main > .section7 > .article2 > p:nth-child(2){
+    font-family: 'Noto Serif KR', serif;
+}
+
+
 main > .section7 > .article2 > form{
-    border-bottom: 2px dashed white;
-    width: 380px;
+    border-bottom: 1px dashed white;
+    width: 480px;
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
 }
 
 main > .section7 > .article2 > form > input{
-    width: 250px;
+    width: 350px;
     border: none;
     background: transparent;
     font-size: var(--base-content);
     margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main > .section7 > .article2 > form > button{
@@ -71,6 +79,7 @@ main > .section7 > .article2 > form > button{
     color:white;
     font-size: var(--base-content);
     margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main > .section7 > .article7{
