@@ -43,7 +43,7 @@ main > .section3 > .article2{
     row-gap: 40px;
     column-gap: 30px;
     padding-top: 50px;
-}
+} 
 
 main > .section3 > .article2 > .item{
     position: relative;
