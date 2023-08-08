@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 100%;
+        height: 100vh;
+        background-color: antiquewhite;
+        position: relative;
+      }
+      div h1 {
+        color: gray;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        transition: 2s;
+      }
+      div h1.active {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 class="active">hi</h1>
+      <h1>hello</h1>
+      <h1>bye</h1>
+    </div>
+    <script>
+      const texts = document.querySelectorAll("h1");
+      let idx = 0;
+      console.log(texts.length);
+      document.querySelector("div").addEventListener("click", () => {
+        console.log(idx);
+        for (let text of texts) {
+          text.classList.remove("active"); //active 전체 다 지우기
+          console.log(text);
+        }
+        // idx++;
+        // if (idx === texts.length) {
+        //   idx = 0;
+        //   texts[0].classList.add("active");
+        // } else {
+        //   texts[idx].classList.add("active");
+        // }
+      });
+    </script>
+  </body>
+</html>
