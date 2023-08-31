@@ -62,6 +62,7 @@ text2 = item2.querySelectorAll("h1"),
 slides = document.querySelector(".swiper-wrapper"),
 slide = document.querySelectorAll(".swiper-slide"),
 index = 0;
+idx =0;
 
 section1.addEventListener("click", () => {
     //슬라이드 이동
@@ -80,25 +81,29 @@ const swiper = new Swiper(".swiper", {
     loop: true,
     
     on: {
-        slideChangeTransitionStart: function() {
+        slideChangeTransitionStart: function () {
+    
+          for (let text of text1) {
+            text.classList.remove('active');
+          }
+          for (let text of text2) {
+            text.classList.remove('active');
+          }
+    
+          if (index === text1.length) {
+            index = 0;
+            text1[0].classList.add('active');
+            text2[0].classList.add('active');
+            section1.style.backgroundColor = changeColor[0];
+          } else {
+            text1[index].classList.add('active');
+            text2[index].classList.add('active');
             section1.style.backgroundColor = changeColor[index];
-            // console.log(index);
-            for (let text of text1) {
-                text.classList.remove("active");
-                // console.log(text);
-                // console.log(text1);
-            }
-            index++;
-            if(index === text1.length){
-                // idx = 0;
-                index = 0;
-                text1[0].classList.add("active");
-                section1.style.backgroundColor = "changeColor[0]";
-            } else{
-                text1[index].classList.add("active");
-                section1.style.backgroundColor = "changeColor[index]";
-            }
+          }
+          index++;
+        },
         
+            
         //글자 변경
         // if(index==5){
         //         index=0;
@@ -106,4 +111,4 @@ const swiper = new Swiper(".swiper", {
         
     },
 },
-});
+);
