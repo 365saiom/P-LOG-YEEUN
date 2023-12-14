@@ -1,5 +1,5 @@
 # Saint James 클론 코딩
-https://sesac-air.github.io/AIR/
+https://365saiom.github.io/P-LOG-YEEUN
 
 ## 기술 스택
 - Language
