@@ -99,8 +99,8 @@ main > .section3 > .article2 > .item:hover img {
 main > .section3 > .article2 > .item:hover p:first-child {
   display: block;
   position: absolute;
-  margin-top: 210px;
-  margin-left: 120px;
+  margin-left: 180px;
+  margin-top: 220px;
   z-index: 1;
   border: 1px solid white;
   border-radius: 10%;
